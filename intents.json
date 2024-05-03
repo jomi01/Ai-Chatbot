@@ -1,0 +1,335 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello","hey","hi","good day","Greetings","what's up?","how is it going?", "how you doin"],
+  "responses": ["Hello!","Hey!","What can I do for you?" , "Fine"]
+  },
+
+  {"tag": "name",
+  "patterns": ["what is your name","name","what's your name","who are you","what should I call you"],
+  "responses": ["You can call me BitBuddy","I'm BitBuddy","I'm BitBuddy your virtual assistant"]
+  },
+
+  {"tag": "help",
+  "patterns": ["What can I ask you?", "What questions do you answer?", "Help me understand what you can do", "What type of questions can be asked?"],
+  "responses": ["You can ask me about campus facilities, academic courses, administrative services, event schedules, and more related to BIT Mesra, Lalpur Campus."]
+  },
+
+  {"tag": "Location",
+  "patterns": ["where is the campus located?", "what is the address of the campus?", "how can I find the campus?"],
+  "responses": ["The campus is located at BIT Mesra Extension, Lalpur, Ranchi, Jharkhand 834001.", "The campus address is BIT Mesra Extension, Lalpur, Ranchi, Jharkhand 834001.", "You can find the campus at BIT Mesra Extension, Lalpur, Ranchi, Jharkhand 834001. It's well-connected by local transport services."]
+  },
+
+  {"tag": "courses",
+  "patterns": ["what courses are offered at the campus?", "what programs can I study at Lalpur campus?", "list of courses at Lalpur campus"],
+  "responses": ["BIT Mesra, Lalpur Campus offers four main courses: Bachelor of Computer Applications (BCA), Bachelor of Business Administration (BBA), Master of Computer Applications (MCA), and Master of Business Administration (MBA).", "At the Lalpur campus, you can enroll in BCA, BBA, MCA, and MBA programs.", "The Lalpur campus offers these courses: BCA, BBA, MCA, and MBA."]
+  },
+
+  {"tag": "bcaCourseDuration",
+            "patterns": [
+                "How long is the BCA program?","What is the duration of the BCA course?", "How many years is the BCA course", "Duration of the BCA course at Lalpur campus"
+            ],
+            "responses": [
+                "The Bachelor of Computer Applications (BCA) program typically lasts for 3 years.",
+                "The Bachelor of Computer Applications (BCA) course is a 3-year program."
+            ] 
+          
+  },
+
+  {"tag": "bbaCourseDuration",
+  "patterns": [
+      "How long is the BBA program?","What is the duration of the BBA course?", "How many years is the BBA course", "Duration of the BBA course at Lalpur campus"
+  ],
+  "responses": [
+      "The Bachelor of Business Administration (BBA) program typically lasts for 3 years.",
+      "The Bachelor of Business Administration (BBA) course is a 3-year program."
+  ] 
+
+},
+
+{"tag": "mcaCourseDuration",
+"patterns": [
+    "How long is the MCA program?","What is the duration of the MCA course?", "How many years is the MCA course", "Duration of the MCA course at Lalpur campus"
+],
+"responses": [
+    "The Master of Computer Applications (MCA) program typically lasts for 2 years.",
+    "The Master of Computer Applications (MCA) course is a 2-year program."
+] 
+
+},
+
+{"tag": "mbaCourseDuration",
+"patterns": [
+    "How long is the MBA program?","What is the duration of the MCA course?", "How many years is the MCA course", "Duration of the MCA course at Lalpur campus"
+],
+"responses": [
+    "Master of Business Administration (MBA) program typically lasts for 2 years.",
+    "Master of Business Administration (MBA) course is a 2-year program."
+] 
+
+},
+
+  
+  {"tag": "bcaSemesters",
+    "patterns": [
+        "how many semesters does the BCA program have?",
+        "number of semesters in the BCA course",
+        "semesters in the BCA program",
+        "how long is the BCA program in terms of semesters?"
+    ],
+    "responses": [
+        "The Bachelor of Computer Applications (BCA) program is divided into 6 semesters.",
+        "The The Bachelor of Computer Applications (BCA) course consists of 6 semesters.",
+        "The The Bachelor of Computer Applications (BCA) program includes 6 semesters.",
+        "The The Bachelor of Computer Applications (BCA) program is structured into 6 semesters."
+    ]
+  },
+
+  {"tag": "bbaSemesters",
+  "patterns": [
+      "how many semesters does the BBA program have?",
+      "number of semesters in the BBA course",
+      "semesters in the BBA program",
+      "how long is the BBA program in terms of semesters?"
+  ],
+  "responses": [
+      "The Bachelor of Business Administration (BBA) program is divided into 6 semesters.",
+      "The Bachelor of Business Administration (BBA) course consists of 6 semesters.",
+      "The Bachelor of Business Administration (BBA) program includes 6 semesters.",
+      "The Bachelor of Business Administration (BBA) program is structured into 6 semesters."
+  ]
+},
+
+{"tag": "mcaSemesters",
+"patterns": [
+    "how many semesters does the MCA program have?",
+    "number of semesters in the MCA course",
+    "semesters in the MCA program",
+    "how long is the MCA program in terms of semesters?"
+],
+"responses": [
+    "The Master of Computer Applications (MCA) program is divided into 4 semesters.",
+    "The Master of Computer Applications (MCA) course consists of 4 semesters.",
+    "The Master of Computer Applications (MCA) program includes 4 semesters.",
+    "The Master of Computer Applications (MCA) program is structured into 4 semesters."
+]
+},
+
+{"tag": "mbaSemesters",
+"patterns": [
+    "how many semesters does the MBA program have?",
+    "number of semesters in the MBA course",
+    "semesters in the MBA program",
+    "how long is the MBA program in terms of semesters?"
+],
+"responses": [
+    "The Master of Business Administration (MBA) program is divided into 4 semesters.",
+    "The Master of Business Administration (MBA) course consists of 4 semesters.",
+    "The Master of Business Administration (MBA) program includes 4 semesters.",
+    "The Master of Business Administration (MBA) program is structured into 4 semesters."
+]
+},
+
+{
+    "tag": "deanName",
+    "patterns": ["Who is the dean at BIT Mesra Lalpur?"],
+    "responses": ["The dean of BIT Mesra is 'vedant bhattacharya'"]
+},
+
+  {
+    "tag": "deanOffice",
+    "patterns": ["Where is the dean's office located at Lalpur?", "Dean office hours at Lalpur campus"],
+    "responses": ["The dean's office is located at the main building. Office hours are from 9 AM to 5 PM."]
+  },
+
+  {
+    "tag": "deanOfficeHours",
+    "patterns": ["Dean's office hours at Lalpur campus"],
+    "responses": ["The dean's office is located at the main building. Office hours are from 9 AM to 5 PM."]
+  },
+
+  {
+    "tag": "academics_department",
+    "patterns": ["Who can help me with academic advising at Lalpur?", "Where is the academics department located?"],
+    "responses": ["The Academics Department at BIT Mesra Lalpur can help you with all your course and advising needs. It is located in the main academic building, room 302."]
+  },
+  {
+    "tag": "examination_department",
+    "patterns": ["Examination department contact info"],
+    "responses": ["please contact the examination department at exambitlalpur@bitmesra.ac.in"]
+  },
+  {
+    "tag": "library",
+    "patterns": ["What are the library hours at Lalpur?"],
+    "responses": ["The library at Lalpur is open from 9 AM to 5 PM on weekdays."]
+  },
+
+  {
+    "tag": "books",
+    "patterns": ["Can I borrow textbooks from the Lalpur library?"],
+    "responses": ["Students can borrow textbooks for library"]
+  },
+
+  {
+    "tag": "events",
+    "patterns": ["Tell me about Aurora Fest at Lalpur.", "Schedule for Aurora Fest this year?", "What events are planned for this semester at Lalpur?"],
+    "responses": ["Aurora Fest is the annual cultural fest at BIT Mesra, Lalpur, typically held in March. For this year's schedule and other semester events, please check our official website."]
+  },
+
+  {
+    "tag": "semEvents",
+    "patterns": ["What events are planned for this semester at Lalpur?"],
+    "responses": ["For this year's schedule and other semester events, please check our official website."]
+  },
+
+  {
+    "tag": "bca_admissions",
+    "patterns": ["Admission requirements for BCA at Lalpur?", "Minimum percentage for BCA admission at Lalpur?", "How do I apply for BCA at Lalpur?"],
+    "responses": ["To be admitted to the BCA program at Lalpur, you need a minimum of 55% in your 10th and 12th grades. Applications can be submitted online or at the admissions office."]
+  },
+
+  {
+    "tag": "bba_admissions",
+    "patterns": ["Admission requirements for BBA at Lalpur?", "Minimum percentage for BBA admission at Lalpur?", "How do I apply for BBA at Lalpur?"],
+    "responses": ["To be admitted to the BBA program at Lalpur, you need a minimum of 55% in your 10th and 12th grades. Applications can be submitted online or at the admissions office."]
+  },
+
+  {
+    "tag": "mca_admissions",
+    "patterns": ["Admission requirements for MCA at Lalpur?", "Minimum percentage for MCA admission at Lalpur?", "How do I apply for MCA at Lalpur?"],
+    "responses": ["To be admitted to the MCA program at Lalpur, you need a minimum of 55% in your 10th, 12th grades and above 60% in graduation. Applications can be submitted online or at the admissions office."]
+  },
+
+  {
+    "tag": "mba_admissions",
+    "patterns": ["Admission requirements for MBA at Lalpur?", "Minimum percentage for MBA admission at Lalpur?", "How do I apply for MBA at Lalpur?"],
+    "responses": ["To be admitted to the MBA program at Lalpur, you need a minimum of 55% in your 10th, 12th grades and above 60% in graduation. Applications can be submitted online or at the admissions office."]
+  },
+
+  {
+    "tag": "security",
+    "patterns": ["Is there 24/7 security at BIT Mesra Lalpur?", "Security measures at Lalpur campus"],
+    "responses": ["BIT Mesra Lalpur is equipped with 24/7 security to ensure the safety of all students and staff."]
+  },
+  {
+    "tag": "history",
+    "patterns": ["Tell me the history of BIT Mesra Lalpur?", "When was BIT Mesra Lalpur established?", "Founders of BIT Mesra Lalpur campus"],
+    "responses": ["BIT Mesra, Lalpur extension center was established in 1986 to extend the reach of higher education in engineering and technology. It was founded as a part of BIT Mesra's expansion plans."]
+  },
+
+  {
+    "tag": "staff_room",
+    "patterns": ["Where is the staff room located at Lalpur?", "Staff room facilities at Lalpur campus"],
+    "responses": ["The staff room at BIT Mesra Lalpur is located in the Main Building on the second floor and third floor. It includes seating areas, personal lockers, and a small kitchenette for staff convenience."]
+  },
+
+  {
+    "tag": "computer_lab",
+    "patterns": ["Where is the computer lab at Lalpur campus?", "What are the operating hours of the computer lab?", "Are there any special software available in the computer lab at Lalpur?"],
+    "responses": ["The computer lab at Lalpur is located in the Main Building, room 105. It is open from 8 AM to 8 PM on weekdays. The lab is equipped with high-end PCs, industry-standard software, and programming tools."]
+  },
+  {
+    "tag": "playground",
+    "patterns": ["Is there a playground at Lalpur?", "What sports can I play at the Lalpur playground?", "Playground opening hours?"],
+    "responses": ["Yes, there is a large playground at the BIT Mesra Lalpur campus. It's equipped for cricket, football, and athletics. The playground is open from 6 AM to 7 PM."]
+  },
+  {
+    "tag": "campus_timing",
+    "patterns": ["What are the campus hours at Lalpur?", "When does the campus open and close each day?", "Can I access the campus during weekends?"],
+    "responses": ["The Lalpur campus is open from 8 AM to 5 PM from Monday to Friday. On weekends."]
+  },
+  {
+    "tag": "hostel",
+    "patterns": ["Are there any hostels at Lalpur?", "What are some landmarks near the Lalpur campus?", "Does BIT Mesra Lalpur provide hostel accommodation?"],
+    "responses": ["BIT Mesra Lalpur does not provide hostel accommodation."]
+  },
+  {
+    "tag": "Head",
+    "patterns": ["Who's The Boss" , "Who is the main leader of the group" , "Who is the best" , "Who is better than everybody ", "Who is the topper"],
+    "responses": ["Anand Raj" , "The One And Only Anand Raj"]
+  },
+  {
+    "tag": "Developer Info",
+    "patterns": ["Who is Anand Raj" , "Anand Raj", "Who the hell is Anand Raj"],
+    "responses": ["Anand Raj is the Main Developer and Group leader of AI Chatbot development Team" , "Anand Raj is one of the most intelligent Student of BIT Mesra" , "Anand Raj is the best"]
+  },
+
+  {
+    "tag": "landmark",
+    "patterns":["What are some landmarks near the Lalpur campus?"],
+    "responses": ["Nearby landmarks include Mall Decor and Lalpur Square, both popular spots within walking distance from the campus."]
+  },
+
+  {
+    "tag": "entrance_gates",
+    "patterns": ["Where are the entrance gates at BIT Mesra Lalpur?", "Front and back entrance details?"],
+    "responses": ["BIT Mesra Lalpur has two main entrance gates. The front gate faces the main road leading to Lalpur Square, and the back gate is towards the residential area, primarily used for service and emergency access."]
+  },
+  {
+    "tag": "website_information",
+    "patterns": ["Where can I find more information online about BIT Mesra Lalpur?", "BIT Mesra Lalpur website?"],
+    "responses": ["For more information about BIT Mesra Lalpur, visit our official website: [BIT Mesra Lalpur](https://www.bitmesra.ac.in/BIT_Mesra?cid=1&pid=H)."]
+  },
+  {
+    "tag": "bonafide_certificate",
+    "patterns": ["How do I get a bonafide certificate from BIT Mesra Lalpur?", "Bonafide certificate process?"],
+    "responses": ["You can obtain a bonafide certificate from the academic office at BIT Mesra Lalpur. Please submit a written request along with your student ID for processing."]
+  },
+  {
+    "tag": "staff_contacts",
+    "patterns": ["How can I contact staff at BIT Mesra Lalpur?", "Staff contact details for Lalpur campus?"],
+    "responses": ["Staff contact details can be found on our website under the staff directory section or at the administrative office on campus."]
+  },
+  {
+    "tag": "old_building",
+    "patterns": ["Tell me about the old building at Lalpur?", "Historical significance of the old building at BIT Mesra Lalpur?"],
+    "responses": ["The old building at BIT Mesra Lalpur is one of the first constructed on campus. It now houses historical archives and some administrative offices, serving as a symbol of our long-standing academic heritage."]
+  },
+  {
+    "tag": "classroom_features",
+    "patterns": ["Are there classrooms on every floor at Lalpur?", "Classroom facilities at BIT Mesra Lalpur?"],
+    "responses": ["Yes, classrooms are available on every floor of the academic buildings at BIT Mesra Lalpur. Each classroom is equipped with modern teaching aids and comfortable seating."]
+  },
+  {
+    "tag": "lift_features",
+    "patterns": ["Do the buildings at Lalpur have lifts?", "Lift accessibility at BIT Mesra Lalpur?"],
+    "responses": ["All main buildings at BIT Mesra Lalpur are equipped with lifts to ensure easy accessibility for all students and staff, including those with disabilities."]
+  },
+  {
+    "tag": "water_supply",
+    "patterns": ["Is there 24/7 water supply at BIT Mesra Lalpur?", "Water facility details at Lalpur campus?"],
+    "responses": ["BIT Mesra Lalpur ensures a 24/7 water supply across the campus, with multiple water dispensers and facilities in each building."]
+  },
+  {
+    "tag": "washroom_facilities",
+    "patterns": ["Are there washrooms on every floor?", "Washroom availability at BIT Mesra Lalpur?"],
+    "responses": ["Yes, there are washrooms on every floor of the academic and administrative buildings at BIT Mesra Lalpur, maintained regularly for cleanliness and hygiene."]
+  },
+
+  {
+    "tag": "coursesOffered",
+    "patterns": ["What courses do you offer in lalpur center?", "Can you tell me about your courses?", "What are the available courses in lalpur center?"],
+    "responses": ["We offer BCA, BBA, MCA, and MBA programs."]
+  },
+
+  {
+    "tag": "thanks",
+    "patterns": ["Thank you", "Thanks a lot!", "Thanks!"],
+    "responses": ["You're welcome!", "Happy to help!", "Anytime!"]
+  },
+
+  {
+    "tag": "None",
+    "patterns": [""],
+    "responses": ["Sorry , I can't Understand You"]
+  },
+  {
+    "tag": "greetings",
+    "patterns": ["Hi there", "Hello", "Good day"],
+    "responses": ["Hello! How can I assist you today?", "Hi! How can I help you?", "Good day! What can I do for you?"]
+  },
+  {
+    "tag": "Random",
+    "patterns": ["what is sky", "sky", "night sky" , "Day Sky"],
+    "responses": ["Sky typically refers to the atmosphere or outer space as seen from the Earth, especially during the day when it appears blue due to the scattering of sunlight. "]
+  }
+  ]}
